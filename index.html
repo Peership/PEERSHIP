@@ -3,22 +3,43 @@
 <head>
 	<title>Peeship</title>
 	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
 	<!-- This is the header -->
 	<header>
-		<img src="img/landp.jpg" height="auto" width="100%">
+		<img src="img/plogo.jpg" width="auto" height="40px">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Teach</a></li>
+				<li><a href="#">Learn</a></li>
+				<li><a href="#">About Us</a></li>
+			</ul>
+		</nav>
 	</header>
-
+	<img src="img/landp.jpg" height="auto" width="100%">
 	<!-- Main element -->
 	<main>
 		<h2>Upcoming events</h2>
-		<h3><a href="https://www.google.com" target="_blank">Photography Class</a></h3>
-		<p>Nakul Sharma</p>
-		<img src="img/work1.jpg" width="400px" height="auto">
-		<h3>Adobe Illustrator Class</h3>
-		<p>Akshaj Sundar & Angappan Annamalai</p>
-		<img src="img/work2.jpg" width="400px" height="auto">
+		<div class="wrapper"><a href="https://www.google.com" target="_blank">
+			<div class="card">	
+				<img src="img/work1.jpg" width="100%" height="auto">
+				<div class="cardbody">
+					<h3>Photography Class</h3>
+					<p>Nakul Sharma</p>
+				</div>
+			</div></a>
+			<div class="card"><a href="https://www.google.com" target="_blank">
+				<img src="img/work2.jpg" width="100%" height="auto">
+					<div class="cardbody">
+					<h3>Adobe Illustrator Class</h3>
+					<p>Akshaj Sundar & Angappan Annamalai</p>
+				</div>
+			</div></a>
+		</div>
 	</main>
 	<!-- Footer element -->
 	<footer>
